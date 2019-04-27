@@ -82,7 +82,7 @@ class App extends Component {
 function mapStateToProps(state) {
   console.log("state", state);
   return {
-    reminders: state //state'i reducer'a bağlıyoruz (remiders, export ettiğimiz reducer fonksiyonu
+    reminders: state //reducerstan dönen dizi( this.props.reminders ile ulaşabiliriz)
   };
 }
 
