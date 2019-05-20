@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
 import moment from "moment";
 import { connect } from "react-redux";
 import { addReminder, deleteReminder } from "../actions";
